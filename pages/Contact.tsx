@@ -10,6 +10,13 @@ export const Contact: React.FC = () => {
           <p className="text-gray-500 max-w-2xl mx-auto">
             Есть вопросы о заказе, размерах или сотрудничестве? Заполните форму ниже или используйте контакты для прямой связи.
           </p>
+          <p className="mt-6 max-w-2xl mx-auto text-red-600 font-medium">
+            Этот сайт — демонстрационный шаблон для портфолио QYVARO.
+            <br />
+            Формы не предназначены для реального использования.
+            <br />
+            Пожалуйста, не вводите свои данные.
+          </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">

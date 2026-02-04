@@ -145,6 +145,9 @@ export const Layout: React.FC<LayoutProps> = ({ currentPage, setCurrentPage, chi
           </div>
           <div className="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
             &copy; {new Date().getFullYear()} MODA Store. Все права защищены.
+            <div className="mt-2">
+              Сайт используется как демонстрационный шаблон для портфолио QYVARO.
+            </div>
           </div>
         </div>
       </footer>
